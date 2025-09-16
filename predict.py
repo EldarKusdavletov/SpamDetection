@@ -50,7 +50,7 @@ def analyze_text(text: str, model, tokenizer):
 # --- Основной блок ---
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Использование: python analyze_cli_tensorflow.py \"ваше сообщение\"")
+        print("Использование: python predict.py \"ваше сообщение\"")
         sys.exit(1)
 
     message = " ".join(sys.argv[1:])
