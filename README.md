@@ -1,5 +1,5 @@
 ```
-python3 -m venv .venv
+python3.9 -m venv .venv
 
 source .venv/bin/activate
 
@@ -9,6 +9,21 @@ python train.py [optional]
 
 python predict.py 'your text'
 ```
+
+## Server Setup
+
+```aiignore
+python3 server.py
+
+curl -X POST <ADDRESS>:<PORT>/analyze \
+  -H "Content-Type: application/json" \
+  -d '{"message": "хочешь взять долги и кредиты без процентов"}'
+
+
+Returns:
+{"risk_score":0.5811898708343506}
+```
+
 ## Examples
 
 ```
