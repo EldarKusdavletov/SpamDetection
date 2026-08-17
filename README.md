@@ -1,13 +1,14 @@
 # SpamDetection
 
-SpamDetection is a TensorFlow project for **Russian spam-risk detection** in text messages.
+SpamDetection is a production-oriented TensorFlow project for **Russian spam-risk detection** in text messages.
+It combines deep-learning training with practical inference interfaces, so you can go from model idea to usable anti-spam signal fast.
 
 It includes:
 - **Model training** (`train.py`)
 - **CLI inference** (`predict.py`)
 - **HTTP API inference** (`server.py`)
 
-Pretrained artifacts are already in the repository, so you can start inference immediately.
+Pretrained artifacts are already in the repository, so you can run real predictions right away.
 
 ## Quick start
 
